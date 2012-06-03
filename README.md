@@ -1,6 +1,9 @@
 phone-gap-audio-example
 =======================
 
+Jeremiah Bargar
+@bargar
+
 Updated example of phone gap audio playback and recording intended for iOS.
 
 Original inspiration here, from Todd Blanchard:
@@ -20,3 +23,4 @@ To run this example, create a helloworld style application, as shown here:
 http://wiki.phonegap.com/w/page/52010495/Getting%20Started%20with%20PhoneGap-Cordova%20and%20Xcode%204
 
 Put the example files in the app's www directory and deploy to your iOS device.
+
