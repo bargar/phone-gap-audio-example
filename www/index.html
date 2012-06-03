@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no;" />
+    <meta charset="utf-8">
+
+
+    <!-- iPad/iPhone specific css below, add after your main css >
+     <link rel="stylesheet" media="only screen and (max-device-width: 1024px)" href="ipad.css" type="text/css" />
+     <link rel="stylesheet" media="only screen and (max-device-width: 480px)" href="iphone.css" type="text/css" />
+     -->
+    <!-- If your application is targeting iOS BEFORE 4.0 you MUST put json2.js from http://www.JSON.org/json2.js into your www directory and include it here -->
+    <script type="text/javascript" charset="utf-8" src="cordova-1.7.0.js"></script>
+    <script type="text/javascript" charset="utf-8" src="jquery-1.7.2.js"></script>
+    <script type="text/javascript" charset="utf-8" src="sound.js"></script>
+
+</head>
+<body onload="onBodyLoad()">
+phonegap audio test
+<hr>
+record and playback test
+<table style="width: 100%" class="grid">
+    <tr>
+        <td>
+            <input id="record-button"
+                   type="button"
+                   value="RECORD"
+                   ontouchstart="recordButtonClicked();">
+        </td>
+        <td>
+            <input id="play-button"
+                   type="button"
+                   value="PLAY"
+                   ontouchstart="playButtonClicked();">
+        </td>
+        <td>
+            <input id="cd-button"
+                   type="button"
+                   value="HELP"
+                   ontouchstart="cdButtonClicked();">
+        </td>
+    </tr>
+</table>
+<hr>
+playback test from static resource
+<input id="beep"
+       type="button"
+       value="PLAY BEEP"
+       ontouchstart="playWav('beep.wav');">
+</body>
+</html>
