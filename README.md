@@ -4,7 +4,7 @@ phone-gap-audio-example
 Jeremiah Bargar
 @bargar
 
-Updated example of phone gap audio playback and recording intended for iOS.
+Updated example of phone gap audio playback and recording intended for iOS.  This example has been tested on an iPhone (iOS 5) as well as the iOS Simulator.
 
 Original inspiration here, from Todd Blanchard:
 http://wiki.phonegap.com/w/page/21488260/iPhone%3A%20Record%20and%20Playback%20Audio
