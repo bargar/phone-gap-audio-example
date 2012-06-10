@@ -9,7 +9,7 @@ Updated example of phone gap audio playback and recording intended for iOS.  Thi
 Original inspiration here, from Todd Blanchard:
 http://wiki.phonegap.com/w/page/21488260/iPhone%3A%20Record%20and%20Playback%20Audio
 
-This new version works with Cordova 1.5+.  Notable changes from the original approach:
+This new version works with Cordova 1.7 (The api has changed again for 1.8).  Notable changes from the original approach:
 
 * console.log instead of the deprecated debug.log
 * removed references to activityStart/Stop
